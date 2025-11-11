@@ -1,10 +1,11 @@
 import Container from '../../utils/Container';
 import { Link } from 'react-scroll';
+
 const Navbar = () => {
   return (
-    <header className=''>
+    <header className='absolute top-0 left-0 w-full z-50 bg-transparent'>
       <Container>
-        <nav className='flex items-center justify-between'>
+        <nav className='flex items-center justify-between py-5'>
           {/* Logo */}
           <Link
             to='hero'

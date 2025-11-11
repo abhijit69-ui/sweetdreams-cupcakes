@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import Navbar from './elements/Navbar';
 import Footer from './elements/Footer';
-import Container from '../utils/Container';
 
 interface Props {
   title: string;
@@ -15,15 +14,13 @@ const Layout = ({ title, children }: Props) => {
 
   return (
     <>
-      {/* Navbar is full-width but content inside can be constrained */}
       <Navbar />
 
-      {/* Main wrapper with vertical rhythm */}
+      {/* Remove container here */}
       <main className='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'>
-        <Container>{children}</Container>
+        {children}
       </main>
 
-      {/* Footer also full-width with inner container */}
       <Footer />
     </>
   );
