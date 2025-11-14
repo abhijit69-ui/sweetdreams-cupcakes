@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
 
       {/* Wavy bottom */}
       <svg
-        className='absolute md:-bottom-5 -bottom-1 left-0 w-full scale-y-90'
+        className='absolute md:-bottom-5 bottom-0 left-0 w-full scale-y-90 z-50'
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 1440 320'
       >
