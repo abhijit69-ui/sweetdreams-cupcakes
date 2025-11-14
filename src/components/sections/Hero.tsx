@@ -3,8 +3,8 @@ import BtnLink from '../shared/BtnLink';
 
 const Hero: React.FC = () => {
   return (
-    <section className='relative overflow-hidden bg-white'>
-      <div className='mt-8 max-w-7xl mx-auto flex flex-col justify-center min-h-screen px-6'>
+    <section id='hero' className='relative overflow-hidden bg-white'>
+      <div className='mt-1 max-w-7xl mx-auto flex flex-col justify-center min-h-screen px-6'>
         {/* Text + Image */}
         <div className='relative flex flex-col md:flex-row items-center gap-3 justify-center md:justify-between w-full text-center md:text-left'>
           {/* Left text */}
@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
 
       {/* Wavy bottom */}
       <svg
-        className='absolute md:-bottom-5 bottom-5 left-0 w-full scale-y-90'
+        className='absolute md:-bottom-5 -bottom-1 left-0 w-full scale-y-90'
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 1440 320'
       >

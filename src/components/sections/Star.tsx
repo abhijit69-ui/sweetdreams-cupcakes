@@ -16,8 +16,11 @@ export const Star: React.FC<StarProductProps> = ({
   imageAlt = 'Star Product',
 }) => {
   return (
-    <section className="relative -mt-32 py-12 px-4 bg-[url('/assets/sprinkles.png')] bg-cover bg-center opacity-90 -z-20">
-      <div className='text-center mb-12'>
+    <section
+      id='star'
+      className="relative -mt-32 py-12 px-4 bg-[url('/assets/sprinkles.png')] bg-cover bg-center opacity-90 -z-20"
+    >
+      <div className='text-center mb-12 mt-12'>
         <h2 className='text-3xl md:text-4xl font-bold text-gray-900'>
           {heading}
         </h2>
